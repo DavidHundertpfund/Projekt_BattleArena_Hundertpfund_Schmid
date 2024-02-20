@@ -2,31 +2,31 @@ package arena;
 
 public abstract class Charakter {
 
-	private String Name;
-	private int Lifepoints;
+	private String name;
+	private int lifepoints;
 	private boolean specialAbilityActive;
-	private int Damagepoints;
+	private int damagepoints;
 	
 	
 	
 	public Charakter(String name) {
 		super();
-		Name = name;
-		this.Lifepoints = 100;
+		name = name;
+		this.lifepoints = 100;
 		this.specialAbilityActive = false;
-		this.Damagepoints = 0;
+		this.damagepoints = 0;
 	}
 	public String getName() {
-		return Name;
+		return name;
 	}
 	public void setName(String name) {
-		Name = name;
+		name = name;
 	}
 	public int getLifepoints() {
-		return Lifepoints;
+		return lifepoints;
 	}
 	public void setLifepoints(int lifepoints) {
-		Lifepoints = lifepoints;
+		lifepoints = lifepoints;
 	}
 	public boolean isSpecialAbilityActive() {
 		return specialAbilityActive;
@@ -35,17 +35,24 @@ public abstract class Charakter {
 		this.specialAbilityActive = specialAbilityActive;
 	}
 	public int getDamagepoints() {
-		return Damagepoints;
+		return damagepoints;
 	}
 	public void setDamagepoints(int damagepoints) {
-		Damagepoints = damagepoints;
+		damagepoints = damagepoints;
 	}
 	
 	
+	public void getDamage(int damagePoints) {
+		this.lifepoints = lifepoints - damagePoints; 
+	}
 	
+	public void attack(Charakter enemy) {
+		damagePoints = randompoints();
+		enemy.getDamage(damagePoints);	
+	}
 	
+	public int randompoints();
 	
-	
-	
-	
+	public void activateSpecialAbillity();
+	public void deactivateSpecialAbillity();
 }
