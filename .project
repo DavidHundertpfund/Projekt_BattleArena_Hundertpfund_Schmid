@@ -1,6 +1,25 @@
 <<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+	<name>battleArena</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
+=======
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
 	<name>battlearena</name>
 	<comment></comment>
 	<projects>
@@ -53,5 +72,6 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 </projectDescription>
+>>>>>>> branch 'master' of https://github.com/DavidHundertpfund/Projekt_BattleArena_Hundertpfund_Schmid.git
 >>>>>>> branch 'master' of https://github.com/DavidHundertpfund/Projekt_BattleArena_Hundertpfund_Schmid.git
 >>>>>>> branch 'master' of https://github.com/DavidHundertpfund/Projekt_BattleArena_Hundertpfund_Schmid.git
