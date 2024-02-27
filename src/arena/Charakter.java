@@ -55,4 +55,5 @@ public abstract class Charakter {
 	
 	public void activateSpecialAbillity();
 	public void deactivateSpecialAbillity();
+	//gfchvbjknlmö,
 }
