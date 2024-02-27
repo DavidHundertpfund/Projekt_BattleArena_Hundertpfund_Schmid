@@ -37,8 +37,8 @@ public abstract class Charakter {
 	public int getDamagepoints() {
 		return damagepoints;
 	}
-	public void setDamagepoints(int damagepoints) {
-		damagepoints = damagepoints;
+	public void setDamagepoints(int damagePoints) {
+		damagePoints = damagePoints;
 	}
 	
 	
@@ -47,13 +47,13 @@ public abstract class Charakter {
 	}
 	
 	public void attack(Charakter enemy) {
-		damagePoints = randompoints();
-		enemy.getDamage(damagePoints);	
+		damagepoints = randompoints();
+		enemy.getDamage(damagepoints);	
 	}
 	
 	public int randompoints();
 	
 	public void activateSpecialAbillity();
 	public void deactivateSpecialAbillity();
-	//gfchvbjknlmö,
+	
 }
